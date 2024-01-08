@@ -1,0 +1,80 @@
+body{
+    background-color: #629d66;
+    background-image:url(bg.png);
+    background-repeat: repeat-x;
+    
+}
+main{
+    font-size: auto;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "h h h"
+    "d a a"
+    "f f f";
+    width: 900px;
+    margin: auto;
+}
+header{
+    color: brown;
+    background-image: url(logo1.jpg);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-area: h;
+    text-align: right;
+}
+div{
+    background-image: url(img02.gif);
+    font-size: 12px;
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-color: #96A96F;
+    margin: auto ;
+    
+
+}
+article{
+    grid-area: a;
+ font-size: 12pt;
+ background-color: white;
+ color: black;
+}
+footer{
+    grid-area: f;
+}
+h4{
+    text-align: left;
+    background-color: #203926;
+}
+nav{
+    grid-area: d;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+
+}
+h1{
+    font-size: 80px;
+}
+img{
+    margin: 5pt 20px 5pt 5pt;
+}
+footer{
+    background-color: darkgrey;
+}
+li{
+    text-decoration: none;
+    color: green;
+
+}
+ul{
+    text-decoration: none;
+    list-style-type: none;
+    
+}
+h2{
+    color: black;
+}
